@@ -1,0 +1,45 @@
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+.conteiner{
+    max-width: 580px;
+    margin: 0 auto;
+}
+.header_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 326px;
+    background-size: contain;
+    background-image: url(../img/bg.png);
+    font-weight: 100;
+    font-size: 38px;
+}
+.main_title{
+    margin-top: 70px;
+    font: normal normal bold 38px/46px ;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+
+}
+input{
+    margin-bottom: 17px;
+    height: 40px;
+}
+.form_name{
+    display: flex;
+}
+.form_name input{
+
+    width: 50%;
+}
+.form_name input:first-child{
+    margin-right: 17px;
+}
+#email{
+    width: 98%;
+}

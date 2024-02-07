@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUBSCRIPTION CENTER</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">    
+
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="conteiner">
+                <h2 class="header_title">SUBSCRIPTION CENTER</h2>
+            </div>
+        </header>
+        <main>
+            <div class="conteiner">
+                <h1 class="main_title">MANAGE YOUR SUBSCRIPTION SETTINGS HERE</h1>
+                <form action="">
+                    <div class="form_name">
+                        <input placeholder="Vorname / first name *" type="text" id="lname" name="lname">
+                        <input placeholder="Nachname / last name *" type="text" id="fname" name="fname">
+                    </div>
+                    <input placeholder="E-Mail *" type="email" name="email" id="email">
+                    <div class="line"></div>
+                    <p class="form_text">Wählen Sie aus, welche Inhalte Sie von uns Erhalten möchten:</p>
+                    <label for="news">News rund um Medien, Kino OoH</label>
+                    <input type="checkbox" id="news" name="news" value="news">
+                    <label for="events">Weicher Events</label>
+                    <input type="checkbox" id="events" name="events" value="events">
+                    <div class="line"></div>
+                    <label for="gelesen">Ich habe die Datenschutzbestimmungen gelesen und stimme Ich habe die Datenschutzbestimmungen gelesen und stimme hiermit ausdrücklich zu * ausdrücklich zu *</label>
+                    <input type="checkbox" id="gelesen" name="gelesen" value="gelesen">
+                    <div class="line"></div>
+                    <label for="allen">Von allen Abonnements abmelden</label>
+                    <input type="checkbox" id="allen" name="allen" value="allen">
+                    <input type="submit" value="submit">
+                </form>
+                <div class="line"></div>
+            </div>
+        </main>
+        <footer>
+            <div class="conteiner">
+                <p class="footer_text">Hinweis:</p>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
