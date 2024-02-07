@@ -6,10 +6,13 @@ body {
     font-weight: 100;
 }
 .conteiner{
+    
     max-width: 580px;
     margin: 0 auto;
 }
 .header_title{
+    margin-top: 0
+;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,5 +44,5 @@ input{
     margin-right: 17px;
 }
 #email{
-    width: 98%;
+    min-width: 98%;
 }
