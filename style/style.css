@@ -46,3 +46,12 @@ input{
 #email{
     min-width: 99%;
 }
+.line{
+    content: "";
+    color: #fff;
+    background-color: #fff;
+    width: 100vw;
+    height: 1px;
+    position: absolute;
+    left: 0vw;
+}
