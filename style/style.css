@@ -29,7 +29,7 @@ body {
     text-transform: uppercase;
 
 }
-input{
+.input_text{
     margin-bottom: 17px;
     height: 40px;
 }
@@ -54,6 +54,15 @@ input{
     height: 1px;
     position: absolute;
     left: 0vw;
+}
+label{
+    line-height: 30px;
+}
+.btn{
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 /* adaptiv */
 @media screen and (max-width: 400px) {
